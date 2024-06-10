@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
   <meta charset="utf-8">
@@ -8,6 +8,22 @@
 </head>
 
 <body>
-  <script src="index.js" type="module"></script>
-</body>
+  <script src="index.js"  type="module"></script>
+
+  <header>
+  <h1> Analizador de TEXTO </h1>
+  </header>
+<ul>
+  <li class="analizador" data-testid="character-count">Número de caracteres:</li>
+  <li class="analizador" data-testid="no-spaces-count">Caracteres sin espacios:</li>
+  <li class="analizador" data-testid="word-count">Palabras:</li>
+  <li class="analizador" data-testid="number-count">Números:</li>
+  <li class="analizador" data-testid="number-sum">Suma números:</li>
+  <li class="analizador" data-testid="average-word-length">Promedio longitud:</li>
+</ul>
+<textarea name="textarea" placeholder="¡Hola, escribe tu texto!" rows="10" cols="50"></textarea>
+<button id="reset-button" class = "reset"> Limpiar MÉTRICAS</button>
+<footer>Autor: Nadia Pérez Méndez</footer>
+<script src="index.js" type="module"></script>
+ </body>
 </html>
