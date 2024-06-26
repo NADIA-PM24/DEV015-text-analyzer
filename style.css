@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+}
+
+
+
+body {
+    background-image: url('images/scrabble\ 1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 12px 6px 4px #64045c;
+    font-size: 86px;
+    color: white;
+    line-height: 120px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke: 2px rgb(85, 3, 85);
+    letter-spacing: -2px;
+
+}
+
+
+
+textarea {
+    border-radius: 10px;
+    background-color: #f0eded;
+    font-size: 12px;
+    width: 1000px;
+    height: 280px;
+    border: 3px solid#610369;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    letter-spacing: 1px;
+    margin: 16px auto;
+    display: block;
+
+
+}
+
+ul {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+}
+
+
+footer {
+
+    color: #000c00;
+    font-style: italic;
+    font-size: 16px;
+    margin-top: -10px;
+    margin-left: 1100px;
+
+}
+
+button {
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #62036e;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    display: block;
+    margin: 0 auto;
+
+}

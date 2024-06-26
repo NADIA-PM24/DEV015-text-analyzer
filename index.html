@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Analizador de texto</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <img src="abcdario.jpg" />
+
+  <header>
+    <h1> ANALIZADOR DE TEXTO </h1>
+  </header>
+
+  <ul>
+    <li class="analizador" data-testid="character-count">Número de caracteres:</li>
+    <li class="analizador" data-testid="no-spaces-count">Caracteres sin espacios:</li>
+    <li class="analizador" data-testid="word-count">Palabras:</li>
+    <li class="analizador" data-testid="number-count">Números:</li>
+    <li class="analizador" data-testid="number-sum">Suma números:</li>
+    <li class="analizador" data-testid="average-word-length">Promedio longitud:</li>
+  </ul>
+
+  <textarea name="user-input" placeholder="¡HOLA! Escribe tu texto" rows="10" cols="50"></textarea>
+  <button id="reset-button" class="favorite styled" type="button"> LIMPIAR MÉTRICAS </button>
+
+  <footer>
+    <p>Autor: Nadia Pérez Méndez</p>
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
